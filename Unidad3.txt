@@ -1,0 +1,24 @@
+UNIDAD 3:
+
+1- CSS es un lenguaje de diseño, que sirve para darle estilo a nuestro codigo. 
+    A traves de CSS le podemos dar vida a nuestro codigo HTML, a traves de distintos estilos
+    agregables, como fondo, color de texto, tamaños...
+
+2- Los SELECTORES indican a el elemento al que se debe aplicar el estilo. Los mas comunes son
+    Selector universal, de etiqueta o tipo, de clase o de ID.
+    Propiedades:
+        - 1: color:; => sirve para darle color a nuestro texto
+        - 2: border:; => sirve para darle un borde con cierto grosor y color a nuestro contenedor
+        - 3: padding:; => sirve para darle un espacio de relleno a nuestra etiqueta
+        - 4: margin:; => sirve para darle un margen de espaciado a nuestra etiqueta
+        - 5: font-size:; => sirve para darle un tamaño de fuente a nuestro texto
+
+3- El diseño responsivo es un tipo de diseño el cual se basa en estilar nuestra pagina web
+    de manera que cualquier usuario desde cualquier dispositivo la pueda ver con perfeccion y sin
+    que se rebasen nuestros distintos elementos. Es sumamente importante ya que nuestra pagina web
+    la van a visitar diversos usuarios en distintos dispotivios con distinta resolucion, y a la hora
+    de navegar si nuestro diseño no es responsivo y no se adapta a las distintas dimension el usuario 
+    va a tener una mala experiencia por la que podremos perder clientes. 
+    - Se puede lograr un diseño responsivo usando Unidades Relativas, Media Queries, display Grid y Flex
+
+    

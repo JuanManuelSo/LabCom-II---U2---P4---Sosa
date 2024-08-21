@@ -1,0 +1,158 @@
+body, html {
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    
+}
+
+.contenido {
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(59, 59, 59);
+}
+
+.imagen img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.bio{
+    color: rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.lista h2{
+    margin: 0;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul li{
+    
+    font-size: 24px;
+}
+
+
+div {
+    margin: 20px;
+}
+
+.table {
+    margin: 10px ;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #b4b4b4;
+    text-align: left;
+}
+
+tr {
+
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.links a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+}
+
+.links a:hover{
+    
+    background-color: rgb(161, 147, 129);
+    
+}
+
+.forms {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
